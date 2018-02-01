@@ -13,8 +13,7 @@ class ProjectCard extends Component {
       backgroundImage: `url('${this.props.img}')`,
       backgroundRepeat:   'no-repeat',
       backgroundSize:     'cover',
-      marginTop:'1em',
-      marginLeft: '2em'
+      marginTop:'1em'
     }
 
     return (

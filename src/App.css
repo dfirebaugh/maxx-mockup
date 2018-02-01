@@ -69,7 +69,7 @@
 }
 
 .carousel-item{
-  height: 60vh;
+  height: 20vh;
   min-height: 300px;
   background: no-repeat center center scroll;
   background-image: none;
@@ -136,15 +136,17 @@
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  margin-left:-25px;
+
+}
+.cardContainer{
+  margin:0 auto;
+  padding:12px;
 
 }
 
 .portfolio{
-  padding-left:25px;
-}
-.cardContainer{
-  margin:0 auto;
-
+  margin-left:-.5em;
 }
 .port-objects{
   margin-left:-2em;
@@ -153,7 +155,7 @@
 .port-item{
   text-align:center;
 
-  margin-left:2em;
+  /*margin-left:2em;*/
   border-top: solid 2px #0D4B6E;
   border-bottom: solid 5px #0D4B6E;
 }
