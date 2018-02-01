@@ -1,0 +1,187 @@
+.bg-dark{
+  background-color:#3D3D3D;
+}
+
+.App {
+  background-color: white;
+  text-align: center;
+}
+
+
+@media screen and (min-height: 281px) {
+  .App-logo {
+    height:40vh;
+    width:auto;
+    padding:15px;
+  }
+}
+
+.App-logo {
+  height: 100px;
+  width:170px;
+
+
+}
+
+.App-header {
+  padding-top:2em;
+}
+.App-header a {
+  color: white;
+}
+
+.topBar-text{
+  text-align: left;
+}
+
+.topBar-text h1{
+  padding-top:1em;
+  font-size:32px;
+}
+
+.topBar-text p{
+  font-size:22px;
+}
+
+.navBarBlack{
+  background-color: #222;
+  color:white;
+}
+
+.navBarWhite{
+  background-color:white;
+  height:auto;
+}
+
+.no-padding{
+  padding-left:0;
+  padding-right:0;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+.carousel-item{
+  height: 60vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  background-image: none;
+  background-size: auto auto;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+
+}
+
+.mainPage-content{
+  background-color:white;
+  padding-top:100px;
+  padding-bottom:100px;
+}
+
+
+.sliderOverlay{
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+  left: 0;
+  z-index: 15;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-left: 0;
+  /*margin-right: 25%;
+  margin-left: 20%;*/
+  list-style: none;
+}
+
+.small-images {
+    margin-left: 3em;
+    padding-top: 2em;
+    width: 26em;
+    height: 22em;
+    padding-bottom: 2em;
+    display: block;
+    margin: 0 auto;
+    padding-left: 2em;
+
+}
+.underline{
+  text-decoration: underline;
+}
+.portObjsContainer{
+  width:100%;
+}
+.cardHolder{
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+
+}
+
+.portfolio{
+  padding-left:25px;
+}
+.cardContainer{
+  margin:0 auto;
+
+}
+.port-objects{
+  margin-left:-2em;
+}
+
+.port-item{
+  text-align:center;
+
+  margin-left:2em;
+  border-top: solid 2px #0D4B6E;
+  border-bottom: solid 5px #0D4B6E;
+}
+
+.port-item h3{
+  font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: light;
+	line-height: 30.8px;
+  color:#0D4B6E;
+  margin-bottom:2px;
+
+}
+
+.port-item a{
+  font-family: Baskerville, sans-serif;
+	font-size: 24px;
+	font-style: italic;
+	font-variant: normal;
+	font-weight: light;
+	line-height: 24px;
+  color:#BB1F25;
+  margin-bottom:2em;
+}
+
+
+.portfolio-links{
+  text-align:center;
+}
